@@ -35,10 +35,10 @@ define([
         title: "Rendered"
         , content: renderTab
       });
-      new TabView({
-        title: "About"
-        , content: aboutTab
-      });
+      //new TabView({
+      //  title: "About"
+      //  , content: aboutTab
+      //});
 
       //Make the first tab active!
       $("#components .tab-pane").first().addClass("active");
